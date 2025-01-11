@@ -1,90 +1,98 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color:#000000fe
+    color: #000000fe;
 }
- button  {   font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
-    font-weight: 500; 
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.04em; 
-    text-align: left; 
-    text-decoration-skip-ink: none; 
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-decoration-skip-ink: none;
     padding: 10px 20px; 
-    background-color: #4D5AE5; 
-    color: #ffffff; 
-    border: none; 
-    cursor: pointer;   
+    background-color: #4D5AE5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 button:hover {
-    background-color: #3b4ac1; 
-   
+    background-color: #3b4ac1;
+    transform: translateY(-2px);
 }
 
 button:focus {
-    outline: none; 
-    background-color: #3b4ac1; 
-    
+    outline: none;
+    background-color: #3b4ac1;
+    box-shadow: 0 0 5px rgba(59, 74, 193, 0.5);
 }
+
 .contact-link {
-    color: #180794;  
+    color: #180794;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
 .contact-link:hover {
-        color: #0a1f35; 
-    }
-    .contact-link:focus {
-        color: #245673;
-    }
-    h1 {
-        font-family: 'Roboto', sans-serif; 
-        font-size: 3.5; 
-        font-weight: 700; 
-        line-height: 60px; 
-        letter-spacing: 0.02em; 
-        text-align: center; 
-        text-underline-position: from-font; 
-        text-decoration-skip-ink: none; 
-        background-color: #2E2F42; 
-        color: #ffffff; 
-    }
-    h2 {
-        font-family: 'Roboto', sans-serif; 
-        font-size: 2; 
-        font-weight: 700; 
-        line-height: 2; 
-        letter-spacing: 0.02em;
-        text-align: center; 
-        text-underline-position: from-font; 
-        text-decoration-skip-ink: none;
-        font-size: 32px; 
-    }
-    p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px; 
-        font-weight: 400; 
-        line-height: 1.5; 
-        letter-spacing: 0.02em; 
-        text-align: left; 
-        text-underline-position: from-font; 
-        text-decoration-skip-ink: none; 
-    }
-    .our-team {
-        background-color: #F4F4FD; 
-        
-    } 
-    footer {
-        background-color: #2E2F42; 
-        color: #ffffff; 
-        padding: 20px 0; 
-        text-align: center; 
-         font-family: 'Roboto', sans-serif;
-        font-size: 16px; 
-        font-weight: 400; 
-         line-height: 1.5; 
-         text-align: left; 
-         text-underline-position: from-font; 
-         text-decoration-skip-ink: none; 
-        
-    }
+    color: #0a1f35;
+}
+
+.contact-link:focus {
+    color: #245673;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px; 
+    font-weight: 700;
+    line-height: 1.0; 
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #2E2F42;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px; 
+    font-weight: 700;
+    line-height: 1.25; 
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #ffffff;
+    padding: 20px 0; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 1.5; 
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
