@@ -187,7 +187,6 @@ li {
     height: auto;
     margin-bottom: 15px;
 }
-
 .fourth_section {
     background-color: #F4F4FD;
 }
@@ -219,4 +218,49 @@ li {
 
 .portfolio-list img {
     width: 100%;
-    height: 
+    height: auto;
+}
+
+.portfolio_heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio_paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer_section {
+    background-color: #2e2f42;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+
+
+.logo_studio {
+    color: #f4f4fd;
+}
+
+.footer_paragraph {
+    line-height: 1.5;
+    color: var(--footer-text-color, #f4f4fd);
+    letter-spacing: 0.02em;
+    font-size: 14px;
+}
