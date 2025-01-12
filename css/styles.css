@@ -1,19 +1,52 @@
 body {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #434455;
-    background-color: #FFFFFF;
-
 }
+
+.logo-text {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4fd; /
+    background-color: #f4f4fd;
 }
-
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -24,7 +57,6 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
 
 .logo-text {
     color: #2e2f42;
@@ -55,103 +87,79 @@ header {
     margin: 0;
 }
 
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-.nav-links .nav-link {
-    text-decoration: none;
-    color: #434455;
-    margin: 0 15px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.nav-links .nav-link:hover {
-    color: #2e2f42;
-}
-
 .contact-info .contact-link:hover {
     color: #2e2f42;
 }
 
-  
-
 .first_section {
-    background-color: #2e2f42; 
-    text-align: center; 
-
+    background-color: #2e2f42;
+    text-align: center;
 }
+
 .section_heading {
     font-family: "Raleway", sans-serif;
-    font-size: 56px; /
-    line-height:1.07;
-    letter-spacing: 0.02em; 
-    color: #ffffff; 
-    margin-bottom: 20px; 
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .btn_order {
-    background-color: #4D5AE5; 
-    font-family: "Roboto", sans-serif; 
-    font-weight: 500; 
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.04em; 
-    color: #ffffff; 
-    border: none; 
-    cursor: pointer; 
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
 }
 
 .btn_order:hover,
 .btn_order:focus {
-    background-color: #404BBF; 
+    background-color: #404BBF;
 }
-
 
 .second_section {
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9;
 }
+
 .sr_only {
-    display: none; 
+    display: none;
 }
+
 .list_item_heading {
-    font-family: "Raleway", sans-serif; 
-    font-weight: 500; 
-    font-size: 20px; 
-    line-height: 1.2; 
-    letter-spacing: 0.02em; 
-    color: #2e2f42; 
-    margin-bottom: 10px; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 10px;
 }
 
 .list_item_paragraph {
-    font-family: "Roboto", sans-serif; 
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em; 
-    color: #434455; 
-    margin-bottom: 20px; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 20px;
 }
+
 .second_section ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
 }
 
 .second_section li {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
-.thirt_section {
-    background-color: #F4F4FD; 
+.third_section {
+    background-color: #F4F4FD;
 }
 
 .section_heading {
@@ -169,22 +177,19 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .team-item {
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
+
 .team-member-img {
-    width: 200px;
-    height: 200px;
     object-fit: cover;
-    
     margin-bottom: 15px;
 }
 
@@ -205,7 +210,6 @@ header {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 
 .fourth_section {
     background-color: #F4F4FD;
@@ -248,6 +252,7 @@ header {
     color: #434455;
     letter-spacing: 0.02em;
 }
+
 .footer {
     background-color: #2e2f42;
     text-align: center;
