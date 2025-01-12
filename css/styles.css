@@ -8,7 +8,9 @@ body {
 header {
     background-color: #f4f4fd;
 }
-
+.logo-studio {
+    color: #2e2f42;  
+}
 .logo-link {
     text-decoration: none;
 }
@@ -38,7 +40,6 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-   
 }
 
 .nav-link:hover,
@@ -102,8 +103,7 @@ header {
 }
 
 .sr_only {
-   
-    
+    display: none;
 }
 
 .list_item_heading {
@@ -134,7 +134,7 @@ header {
 }
 
 ul {
-   ;
+    padding: 0;
     margin: 0;
 }
 
@@ -157,14 +157,15 @@ li {
 
 .team-list {
     list-style: none;
-    
+    padding: 0;
     margin: 0;
 }
 
 .team-item {
     background-color: #FFFFFF;
     margin-bottom: 20px;
-    }
+    padding: 20px;
+}
 
 .team-item-heading {
     font-weight: 500;
@@ -182,7 +183,7 @@ li {
 }
 
 .team-member-img {
-    width: 360
+    width: 360px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -202,61 +203,20 @@ li {
 
 .portfolio-list {
     list-style: none;
-    
+    padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .portfolio-list li {
     width: 30%;
     margin-bottom: 20px;
     background-color: #FFFFFF;
-   
+    padding: 20px;
 }
 
 .portfolio-list img {
-    width: 360;
-    height: 200
-    margin-bottom: 15px;
-}
-
-.portfolio_heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.portfolio_paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.footer {
-    background-color: #2e2f42;
-    text-align: center;
-}
-
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.footer-logo span.studio {
-    color: #f4f4fd;
-}
-
-.footer-paragraph {
-    line-height: 1.5;
-    color: var(--footer-text-color, #F4F4FD);
-    letter-spacing: 0.02em;
-    font-size: 16px;
-}
+    width: 100%;
+    height: 
