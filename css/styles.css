@@ -1,18 +1,43 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #000000fe;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
-button {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px; 
+.home-link {
     font-weight: 500;
-    line-height: 1.5; 
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo span {
+    color: #2e2f42;
+}
+
+.section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.order-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
-    text-decoration-skip-ink: none;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     background-color: #4D5AE5;
     color: #ffffff;
     border: none;
@@ -20,20 +45,19 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:hover {
-    background-color: #3b4ac1;
+.order-button:hover {
+    background-color: #404BBF;
     transform: translateY(-2px);
 }
 
-button:focus {
+.order-button:focus {
     outline: none;
-    background-color: #3b4ac1;
+    background-color: #404BBF;
     box-shadow: 0 0 5px rgba(59, 74, 193, 0.5);
 }
 
 .contact-link {
     color: #180794;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -45,38 +69,32 @@ button:focus {
     color: #245673;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 56px; 
-    font-weight: 700;
-    line-height: 1.0; 
-    letter-spacing: 0.02em;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    letter-spacing: 0.02em;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0;
     background-color: #2E2F42;
     color: #ffffff;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px; 
+    font-size: 32px;
     font-weight: 700;
-    line-height: 1.25; 
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    line-height: 1.25;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px; 
-    line-height: 1.5; 
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .our-team {
@@ -86,13 +104,194 @@ p {
 footer {
     background-color: #2E2F42;
     color: #ffffff;
-    padding: 20px 0; 
+    padding: 20px 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 400;
-    line-height: 1.5; 
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    line-height: 1.5;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info li a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info li a:hover,
+.contact-info li a:focus {
+    color: #404bbf;
+}
+
+.services {
+    background-color: #2e2f42;
+    padding: 40px 20px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    margin-bottom: 30px;
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our_team {
+    background-color: #F4F4FD;
+    padding: 50px 20px;
+}
+
+.section_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 40px;
+}
+
+
+.team_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team_member {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.team_image {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member_name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.member_position {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.portfolio {
+    background-color: #F4F4FD;
+    padding: 50px 20px;
+}
+
+.portfolio_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio_item {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio_item img {
+    width: 360px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.portfolio_title {
+    font-size: 20px;
+     font-weight: 500;
+    line-height:
 }
