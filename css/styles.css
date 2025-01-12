@@ -5,50 +5,15 @@ body {
     color: #434455;
 }
 
-.logo-text {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.studio {
-    color: #2e2f42;
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
 header {
     background-color: #f4f4fd;
 }
 
-.logo {
+.logo-link {
+    text-decoration: none;
+}
+
+.logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -58,36 +23,35 @@ header {
     color: #4d5ae5;
 }
 
-.logo-text {
+.logo-studio {
     color: #2e2f42;
 }
 
-
-.nav-links .first-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.nav-links {
+    list-style: none;
 }
 
 .nav-link {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
+   
 }
-
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
 }
 
+.contact-info {
+    font-style: normal;
+}
 
 .contact-info ul {
     list-style: none;
-    margin: 0;
 }
 
 .contact-info .contact-link {
@@ -95,31 +59,27 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
-
 
 .contact-info .contact-link:hover,
 .contact-info .contact-link:focus {
-    color: #404bbf; 
-}
-
-
-.contact-info {
-    font-style: normal;
+    color: #404bbf;
 }
 
 .first_section {
     background-color: #2e2f42;
     text-align: center;
 }
-.section_heading {
-    font-size: 56px;
-    line-height: 1.07; 
-    text-align: center; 
-    letter-spacing: 0.02em; 
-    color: #ffffff; 
 
+.first_section_heading {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
+
 .btn_order {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -142,7 +102,8 @@ header {
 }
 
 .sr_only {
-    display: none;
+   
+    
 }
 
 .list_item_heading {
@@ -164,22 +125,28 @@ header {
     margin-bottom: 20px;
 }
 
-.second_section ul {
-    list-style-type: none;
-    padding: 0;
+.second_section_heading {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-.second_section li {
-    margin-bottom: 30px;
+ul {
+   ;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 .third_section {
     background-color: #F4F4FD;
 }
 
-.section_heading {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+.third_section_heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -190,47 +157,41 @@ header {
 
 .team-list {
     list-style: none;
-    padding: 0;
+    
     margin: 0;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    padding: 20px;
     margin-bottom: 20px;
-    text-align: center;
-}
-
-.team-member-img {
-    object-fit: cover;
-    margin-bottom: 15px;
-}
+    }
 
 .team-item-heading {
-    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 10px;
 }
 
 .team-item-description {
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
+.team-member-img {
+    width: 360
+    height: auto;
+    margin-bottom: 15px;
+}
+
 .fourth_section {
     background-color: #F4F4FD;
 }
 
-.section_heading {
+.fourth_section_heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -241,31 +202,36 @@ header {
 
 .portfolio-list {
     list-style: none;
-    padding: 0;
+    
+    margin: 0;
 }
 
 .portfolio-list li {
-    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+   
 }
 
-.portfolio-list li img {
-    width: 360px;
-    height: auto;
+.portfolio-list img {
+    width: 360;
+    height: 200
+    margin-bottom: 15px;
 }
 
 .portfolio_heading {
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
-    color: #2e2f42;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio_paragraph {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
