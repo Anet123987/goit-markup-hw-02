@@ -8,6 +8,12 @@ body {
 header {
     background-color: #f4f4fd;
 }
+.sr_only {
+    
+    clip: rect(0, 0, 0, 0);  
+    clip-path: inset(100%);    
+    overflow: hidden;
+}
 .logo-studio {
     color: #2e2f42;  
 }
