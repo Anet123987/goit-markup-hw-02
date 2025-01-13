@@ -108,9 +108,6 @@ header {
     background-color: #f9f9f9;
 }
 
-.sr_only {
-    display: none;
-}
 
 .list_item_heading {
     font-family: "Raleway", sans-serif;
@@ -163,14 +160,14 @@ li {
 
 .team-list {
     list-style: none;
-    padding: 0;
+   
     margin: 0;
 }
 
 .team-item {
     background-color: #FFFFFF;
     margin-bottom: 20px;
-    padding: 20px;
+   
 }
 
 .team-item-heading {
@@ -189,8 +186,7 @@ li {
 }
 
 .team-member-img {
-    width: 360px;
-    height: auto;
+   
     margin-bottom: 15px;
 }
 .fourth_section {
@@ -210,21 +206,20 @@ li {
     list-style: none;
     
     margin: 0;
-    display: flex;
+   
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .portfolio-list li {
-    width: 30%;
+   
     margin-bottom: 20px;
     background-color: #FFFFFF;
-    padding: 20px;
+   
 }
 
 .portfolio-list img {
-    width: 100%;
-    height: auto;
+   
 }
 
 .portfolio_heading {
@@ -244,7 +239,7 @@ li {
 
 .footer {
     background-color: #2e2f42;
-    padding: 20px;
+    
     text-align: center;
 }
 
