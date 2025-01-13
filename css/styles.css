@@ -25,9 +25,8 @@ header {
     color: #4d5ae5;
 }
 
-.logo-studio {
-    color: #2e2f42;
-}
+
+
 
 .nav-links {
     list-style: none;
@@ -134,7 +133,7 @@ header {
 }
 
 ul {
-    padding: 0;
+    
     margin: 0;
 }
 
@@ -202,7 +201,7 @@ li {
 
 .portfolio-list {
     list-style: none;
-    padding: 0;
+    
     margin: 0;
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +235,7 @@ li {
     color: #434455;
 }
 
-.footer_section {
+.footer {
     background-color: #2e2f42;
     padding: 20px;
     text-align: center;
