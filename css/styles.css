@@ -15,7 +15,7 @@ header {
     text-decoration: none;
 }
 
-.logo-text {
+.logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -27,6 +27,13 @@ header {
 
 
 
+.logo-web {
+    color: #4d5ae5; 
+}
+
+.logo-text {
+    color: #2e2f42; 
+}
 
 .nav-links {
     list-style: none;
