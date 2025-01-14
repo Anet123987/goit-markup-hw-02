@@ -83,17 +83,18 @@ header {
 }
 
 
-
- .firsthead{
-    
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    
-    letter-spacing: 0.02em;
-    color: #ffffff;
+     letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
 }
-
-.btn_order {
+ 
+.button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -105,8 +106,8 @@ header {
     cursor: pointer;
 }
 
-.btn_order:hover,
-.btn_order:focus {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
 }
 
