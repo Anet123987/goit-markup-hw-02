@@ -87,7 +87,10 @@ header {
     text-align: center;
 }
 
-.first_section_head {
+
+
+    .first_section.firsthead{
+    
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
