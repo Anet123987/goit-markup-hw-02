@@ -82,12 +82,13 @@ header {
     color: #404bbf;
 }
 
-.first_section {
+.first_section   {
+
     background-color: #2e2f42;
     text-align: center;
 }
 
-.first_section_head {
+#section {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
