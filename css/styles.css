@@ -19,6 +19,15 @@ header {
 }
 .logo-link {
     text-decoration: none;
+    .logo-link {
+        width: 115px;        /* Встановлюємо ширину логотипу */
+        height: 24px;        /* Встановлюємо висоту логотипу */
+        position: absolute;  /* Для позиціонування відносно батьківського елемента */
+        top: 24px;           /* Встановлюємо відступ від верхнього краю */
+        left: 156px;         /* Встановлюємо відступ від лівого краю */
+        gap: 0;              /* Встановлюємо відстань між елементами всередині контейнера (необов'язково) */
+       
+    }
 }
 
 .logo-link {
@@ -52,6 +61,7 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    
 }
 
 .nav-link:hover,
@@ -85,7 +95,7 @@ header {
     text-align: center;
 }
 
-.first_section_heading {
+.first_section_head {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
