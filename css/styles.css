@@ -8,12 +8,7 @@ body {
 header {
     background-color: #f4f4fd;
 }
-.sr_only {
-    
-    clip: rect(0, 0, 0, 0);  
-    clip-path: inset(100%);    
-    overflow: hidden;
-}
+
 .logo-studio {
     color: #2e2f42;  
 }
@@ -89,11 +84,11 @@ header {
 
 
 
-    .firsthead{
+ .firsthead{
     
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
+    
     letter-spacing: 0.02em;
     color: #ffffff;
 }
@@ -127,7 +122,7 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 10px;
+   
 }
 
 .list_item_paragraph {
@@ -136,7 +131,7 @@ header {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 20px;
+   
 }
 
 .second_section_heading {
@@ -147,14 +142,9 @@ header {
     color: #ffffff;
 }
 
-ul {
-    
-    margin: 0;
-}
 
-li {
-    margin-bottom: 20px;
-}
+
+
 
 .third_section {
     background-color: #F4F4FD;
@@ -172,12 +162,12 @@ li {
 .team-list {
     list-style: none;
    
-    margin: 0;
+    
 }
 
 .team-item {
     background-color: #FFFFFF;
-    margin-bottom: 20px;
+   
    
 }
 
@@ -196,10 +186,7 @@ li {
     color: #434455;
 }
 
-.team-member-img {
-   
-    margin-bottom: 15px;
-}
+
 .fourth_section {
     background-color: #F4F4FD;
 }
@@ -216,7 +203,7 @@ li {
 .portfolio-list {
     list-style: none;
     
-    margin: 0;
+   
    
    
     justify-content: space-between;
@@ -224,14 +211,11 @@ li {
 
 .portfolio-list li {
    
-    margin-bottom: 20px;
+    
     background-color: #FFFFFF;
    
 }
 
-.portfolio-list img {
-   
-}
 
 .portfolio_heading {
     font-weight: 500;
